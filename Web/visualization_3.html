@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- CSS Stylesheets with Relative Paths -->
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Web Homework</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="./Website.html"><span class="latitude">Latitude</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls=" navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <div class="dropdown">
+                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Plots
+                            <span class="caret"></span></button> 
+                            <ul class="dropdown-menu">
+                                <li><a href="./visualization_1.html">Latitude vs. Max Temperature</a></li>
+                                <li><a href="./visualization_2.html">Latitude vs. Humidity</a></li>
+                                <li><a href="./visualization_3.html">Latitude vs. Cloudiness</a></li>
+                                <li><a href="./visualization_4.html">Latitude vs. Wind Speed</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="./Comparisons.html"><span class="c-d">Comparison</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="./Data.html"><span class="c-d">Data</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+	   
+	    <div class="content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 col-md-8">
+                        <div class="box">
+                            <div class="header">
+                                <h1 class="title">Cloudiness</h1>
+                            </div>
+                            <div class="content">
+                               <img src="./Resources/assets/images/Fig3.png" alt="Latitude vs.Cloudiness" class="img-responsive">
+	                           <p class="category"> There's really not a lot to say here. Predictably, cloudiness and latitude are not related. Many people live in areas that are cloudy and many people live in areas that are not cloudy. Personally, I enjoy clouds on occasion, but my preference is the sun. It helps me stay tan like the Greek god that I am.
+	                           </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-4">
+                        <div class="box">
+                            <div class="header">
+                                <h1 class="title">Visualizations</h1>
+                            </div>
+                            <div class="box">
+                                <a href="./visualization_1.html"><img src="./Resources/assets/images/Fig1.png" alt="Latitude vs. Max Temperature" height="160" width="160"></a>
+                                <a href="./visualization_2.html"><img src="./Resources/assets/images/Fig2.png" alt="Latitude vs. Humidity" height="160" width="160"></a>
+                                <a href="./visualization_3.html"><img src="./Resources/assets/images/Fig3.png" alt="Latitude vs. Cloudiness" height="160" width="160"></a>
+                                <a href="./visualization_4.html"><img src="./Resources/assets/images/Fig4.png" alt="Latitude vs. Wind Speed" height="160" width="160"></a>
+                             </div>
+	                    </div>
+	                </div>
+	            </div>
+			</div>
+		</div>
+	</div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</html> 
